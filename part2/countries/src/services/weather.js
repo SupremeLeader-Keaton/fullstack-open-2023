@@ -4,7 +4,7 @@ const getWeather = (lat, lng) => {
   const request = axios.get(
     `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lng}&current_weather=true&windspeed_unit=ms`
   )
-  const valueMapping = {
+  const valueMapping = { //Map Meteo: OpenWeatherMap
     0: '01', //Clear sky
     1: '02', //Mainly clear
     2: '03', //Partly cloudy

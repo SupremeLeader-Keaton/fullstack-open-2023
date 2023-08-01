@@ -8,8 +8,8 @@ import phonebook from "./services/phonebook"
 
 const App = () => {
   const [persons, setPersons] = useState([])
-  const [newName, setNewName] = useState("a new person")
-  const [newNumber, setNewNumber] = useState("a new number")
+  const [newName, setNewName] = useState("")
+  const [newNumber, setNewNumber] = useState("")
   const [filter, setFilter] = useState("")
   const [message, setMessage] = useState(null)
   const [messageStatus, setMessageStatus] = useState(null)

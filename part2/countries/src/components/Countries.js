@@ -74,7 +74,6 @@ const Weather = ({ lat, lng }) => {
   if (weatherData === null) {
     return null
   } else {
-    console.log(weatherData)
     return (
       <>
         <div>temperature {weatherData.temperature} Celcius</div>
